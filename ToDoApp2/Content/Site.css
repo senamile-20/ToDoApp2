@@ -1,0 +1,37 @@
+﻿/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.complete-button{
+    background-color: cornflowerblue;
+    border:none;
+    color: white;
+    padding: 10px 20px;
+    text-align : center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.complete-button:hover{
+    background-color : #3e8e41;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+}
